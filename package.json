@@ -55,6 +55,6 @@
       },
       "scripts": {
             "dev": "vite",
-            "build": "vite build --outDir dist"
+             "build": "node ./node_modules/vite/dist/node/index.js build"
       }
 }
